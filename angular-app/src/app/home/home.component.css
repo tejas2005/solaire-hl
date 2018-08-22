@@ -28,9 +28,9 @@ h3 {
     display: inline-block;
     /* width: 300px; */
     height: 200px;
-    border-radius: 25px;
+    border-radius: 500px;
     border: 1px solid #6600FF;
-    padding: 20px;
+    padding: 50px;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
