@@ -1,11 +1,11 @@
 h1 {
-    font-size: 28px;  
+    font-size: 28px;
     text-align: center;
 }
 
 
 h3 {
-    text-align: center;      
+    text-align: center;
 }
 
 
@@ -13,10 +13,10 @@ h3 {
 .bodytext {
     text-align: justify;
     text-align-last: center;
-    background-color: #162b79;
+    background-color: #6600FF;
     color: whitesmoke;
     font-size: 16px;
-    background-image: url("triangle.png");
+
     background-size: cover;
 /*    border-style: inset;
     border-width: 2px;  */
@@ -24,18 +24,24 @@ h3 {
 
 .participant {
     border-style: inset;
-    background-color: white;
+    background-color: ;
     display: inline-block;
     /* width: 300px; */
     height: 200px;
     border-radius: 25px;
-    border: 2px solid #0c2438;    
-    padding: 20px; 
+    border: 1px solid #6600FF;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
+.participant:hover {
+  top: -5px;
+}
 .participantButton {
     /* background-color: #008CBA; */
-    background-color: #0c2438;
+    background-color: #6600FF;
 
     border: none;
     color: white;
@@ -46,4 +52,7 @@ h3 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+.participantButton:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
